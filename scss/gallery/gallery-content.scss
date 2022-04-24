@@ -1,0 +1,186 @@
+.gallery-1-hero {
+    max-width: $nav-content-width;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    @include bg-image($site-yellow,url(../images/gallery/1.png));
+    position: relative;
+
+    .gallery-hero-1-title {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: -75px;
+        filter: drop-shadow(5px 5px 4px rgba($site-black,25%));
+        .gallery-hero-1-large {
+            margin-bottom: 0;
+            font-family: GillSans;
+            font-size: 300px;
+            color: $site-yellow;
+        }
+        .gallery-hero-1-small {
+            margin-bottom: 0;
+            margin-top: 153px;
+            font-family: GillSans;
+            font-size: 140px;
+            color: $site-yellow;
+        }
+    }
+}
+
+.gallery-2-hero {
+    max-width: $nav-content-width;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    @include bg-image($site-pink,url(../images/gallery/2.jpeg));
+    position: relative;
+
+    .gallery-hero-2-title {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: -75px;
+        filter: drop-shadow(5px 5px 4px rgba($site-black,25%));
+        .gallery-hero-2-large {
+            margin-bottom: 0;
+            font-family: GillSans;
+            font-size: 300px;
+            color: $site-pink;
+        }
+        .gallery-hero-2-small {
+            margin-bottom: 0;
+            margin-top: 153px;
+            font-family: GillSans;
+            font-size: 140px;
+            color: $site-pink;
+        }
+    }
+}
+
+.gallery-3-hero {
+    max-width: $nav-content-width;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    @include bg-image($site-green,url(../images/gallery/3.jpg));
+    position: relative;
+
+    .gallery-hero-3-title {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: -75px;
+        filter: drop-shadow(5px 5px 4px rgba($site-black,25%));
+        .gallery-hero-3-large {
+            margin-bottom: 0;
+            font-family: GillSans;
+            font-size: 300px;
+            color: $site-green;
+        }
+        .gallery-hero-3-small {
+            margin-bottom: 0;
+            margin-top: 153px;
+            font-family: GillSans;
+            font-size: 140px;
+            color: $site-green;
+        }
+    }
+}
+
+.gallery-4-hero {
+    max-width: $nav-content-width;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    @include bg-image($site-purple,url(../images/gallery/4.jpg));
+    position: relative;
+
+    .gallery-hero-4-title {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: -75px;
+        filter: drop-shadow(5px 5px 4px rgba($site-black,25%));
+        .gallery-hero-4-large {
+            margin-bottom: 0;
+            font-family: GillSans;
+            font-size: 300px;
+            color: $site-purple;
+        }
+        .gallery-hero-4-small {
+            margin-bottom: 0;
+            margin-top: 153px;
+            font-family: GillSans;
+            font-size: 115px;
+            color: $site-purple;
+        }
+    }
+}
+
+.gallery-5-hero {
+    max-width: $nav-content-width;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    @include bg-image($site-aqua,url(../images/gallery/5.png));
+    position: relative;
+
+    .gallery-hero-5-title {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: -75px;
+        filter: drop-shadow(5px 5px 4px rgba($site-black,25%));
+        .gallery-hero-5-large {
+            margin-bottom: 0;
+            font-family: GillSans;
+            font-size: 300px;
+            color: $site-aqua;
+        }
+        .gallery-hero-5-small {
+            margin-bottom: 0;
+            margin-top: 153px;
+            font-family: GillSans;
+            font-size: 140px;
+            color: $site-aqua;
+        }
+    }
+}
+
+.gallery-text-container {
+    max-width: $nav-content-width;
+    min-height: 133px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 73px;
+
+    p {
+        width: 46%;
+        font-family: GillSansLightItalic;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .gallery-1-hero, .gallery-2-hero, .gallery-3-hero, .gallery-4-hero, .gallery-5-hero, .gallery-text-container{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}

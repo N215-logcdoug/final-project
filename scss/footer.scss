@@ -1,0 +1,77 @@
+footer {
+    background-color: $site-pink;
+    height: 455px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    img {
+        width: 92px;
+        height: 42px;
+    }
+
+    .footer-info {
+
+        p {
+            font-family: GillSans;
+            font-size: 16px;
+            color: $site-white;
+            margin-bottom: 5px;
+            text-align: center;
+        }
+        
+    }
+
+    form {
+        display: flex;
+
+        .footer-email {
+            width: 529px;
+            height: 60px;
+            margin: 0;
+            border: none;
+            background-color: #F56B88;
+            padding-left: 23px;
+            font-family: GillSans;
+            font-size: 16px;
+            color: $site-white;
+            
+        }
+
+        ::placeholder {
+            color: $site-white;
+            opacity: 50%;
+        }
+
+        .footer-submit {
+            width: 167px;
+            height: 60px;
+            border: none;
+            background-color: $site-white;
+            color: $site-pink;
+            font-size: 16px;
+            font-family: GillSans;
+            letter-spacing: 2px;
+            cursor: pointer;
+        }
+    }
+
+    .footer-logos {
+        width: 156px;
+        display: flex;
+        justify-content: space-between;
+        i {
+            font-size: 40px;
+            color: $site-white;
+        }
+        
+    }
+
+    .copyright {
+        font-family: GillSans;
+        font-size: 12px;
+        color: $site-white;
+        opacity: 50%;
+    }
+}

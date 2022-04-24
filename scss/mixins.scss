@@ -1,0 +1,6 @@
+@mixin bg-image($color: $site-yellow, $image: url(../images/about.jpg), $opacity: 75%){
+    background-image: linear-gradient((rgba($color,$opacity)),(rgba($color,$opacity))),$image;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

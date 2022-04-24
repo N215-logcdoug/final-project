@@ -1,0 +1,46 @@
+.about-hero {
+    max-width: $nav-content-width;
+    height: 379px;
+    margin: 0 auto;
+    margin-top: 86px;
+    @include bg-image();
+}
+
+.about-title-container {
+    max-width: $nav-content-width;
+    margin: 0 auto;
+    margin-top: -24px;
+
+    .about-title {
+        width: 230px;
+        height: 40px;
+        border-bottom: 2px solid $site-black;
+
+        p {
+            font-size: 25px;
+            font-family: GillSans;
+            letter-spacing: 2.5px;
+        }
+    }
+}
+
+.about-body {
+    max-width: $nav-content-width;
+    height: 96px;
+    margin: 0 auto;
+    margin-top: 37px;
+    margin-bottom: 95px;
+
+    p {
+        font-family: GillSansLightItalic;
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .about-hero, .about-title-container, .about-body {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}

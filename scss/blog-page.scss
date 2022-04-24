@@ -1,0 +1,57 @@
+.blog-page-hero {
+    max-width: $nav-content-width;
+    height: 300px;
+    margin: 0 auto;
+    @include bg-image($site-pink, url(../images/blog.jpg));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 56px;
+    .blog-page-date {
+        width: 155px;
+        height: 155px;
+        background-color: $site-pink;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .date-number {
+            font-family: GillSansBold;
+            font-size:55px;
+            color: $site-white;
+            margin-bottom: 0;
+            text-decoration: none;
+        }
+        .date-month {
+            font-family: GillSansLight;
+            font-size: 31px;
+            color: $site-white;
+            margin-bottom: 0;
+            text-decoration: none;
+        }
+    }
+}
+
+.blog-page-content-container {
+    margin-bottom: 151px;
+    .blog-page-content {
+        max-width: $nav-content-width;
+        margin: 0 auto;
+        margin-top: 56px;
+
+        .blog-page-header {
+            font-family: GillSans;
+            font-size: 20px;
+            color: $site-pink;
+        }
+
+        .blog-page-body {
+            margin-top: 30px;
+            font-family: GillSansLight;
+            font-size: 20px;
+            color: $site-black;
+            letter-spacing: 2px;
+        }
+    }
+}
+
